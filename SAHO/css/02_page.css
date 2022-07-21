@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.requset_list_item {
+.request_list_item {
     display: flex;
     border-radius: 7px;
     background-color: #ffff;
