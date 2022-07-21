@@ -1,0 +1,191 @@
+   body {
+       background-color: #F2F2F2;
+   }
+   
+   
+   
+   /* Header */
+
+    .header {
+        background: #5A3997;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo_wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo_saho {
+        min-width: 50px;
+        min-height: 20px;
+        margin-right: 10px;
+    }       
+
+    .header_container {
+        max-width: 98%;
+        margin-block: 0;
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .role {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.04800000041723251px;
+        color: #ffff;
+    }
+
+    .header_link {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0.04399999976158142px;
+        color: #CBBBEA;
+    }
+
+    .header_link:nth-last-child(1)::after {
+        content: "";
+        display: inline-block;
+        background-image: url("../images/logout.svg");
+        background-position: center;
+        background-size: 100%;
+        position: absolute;
+        left: 90px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .header_link:nth-last-child(1) {
+        position: relative;
+    }
+
+
+    /* container */
+
+    .container {
+        max-width: 885px;
+        margin: 0 auto;
+    }
+
+    .bg-container {
+        background-color: #ffff;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+
+
+
+
+                    /* DROPDOWN */
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        transition: all 99s;
+     }
+        
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #1F2A45;
+        border: 2px solid #AAECFF;
+        border-radius: 5px;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: center;
+        transition: all 99s;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        padding: 12px 10px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* .dropdown:active .dropdown-content {
+    } */
+    
+    .input_check {
+        display: none;
+    }
+
+    .navigation_menu_link input:checked + .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+
+
+
+
+
+    /* Кнопки */
+
+.requst_btn {
+    padding: 5px 20px;
+    appearance: none;   
+    background: #F7F7F7;
+    max-width: 103px;
+    border-radius: 7px;
+    border: 0;
+    color: rgba(221, 130, 130, 1);
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0.04399999976158142px;
+}
+
+
+.button_red {
+    padding: 10px 20px;
+    background-color: #F29494;
+    border: 0;
+    border-radius: 7px;
+    color: #ffff;
+}
+
+
+
+
+/* Инпуты */
+.input_location {
+    width: 701px;
+    padding: 9px;
+    border-radius: 7px;
+    border: 1px solid rgba(202, 202, 202, 1);
+}
+
+.input_location-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}

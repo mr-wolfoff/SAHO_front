@@ -1,0 +1,85 @@
+.request_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.requset_list_item {
+    display: flex;
+    border-radius: 7px;
+    background-color: #ffff;
+    margin-bottom: 7px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.request_text_left {
+    display: flex;
+    justify-content: space-between;
+    min-width: 321px;
+}
+
+
+.request_item_index {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.request_company_item_name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    color: #DD8282;
+}
+
+
+.request_item_date {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.request_company_tariff_action {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.request_company_tariff_title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    text-align: left;
+}
+
+.request_text_right {
+    display: flex;
+    min-width: 347px;
+    justify-content: space-between;
+}
+
+
+/* Блоки */
+.service_action {
+    margin-bottom: 17px;
+}
+
+
+.request_text_right_short {
+    min-width: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.request_item_index_bold {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
