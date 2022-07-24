@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/05_page.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="nav-container">
+                <div class="logo_wrap">
+                    <a><img src="images/SAHO.svg" alt="saho" class="logo_saho"></a>
+                    <h5 class="role">Суперадмин</h5>
+                </div>
+                <nav class="navigation">
+                    <a class="header_link">Запросы от клиентов</a>
+                    <a class="header_link">Добавить пароль</a>
+                    <a class="header_link">Сбросить пароль</a>
+                    <a class="header_link">Выйти из системы</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="flex_left_colum">
+            <div class="navigation_block">
+                <!-- Дропдаун -->
+                <div class="navigation_filter dropdown">
+                    <label class="navigation_menu_link">
+                        <span class="label-text">Выберите регион</span>
+                        <input class="input_check" type="checkbox" name="dropdown">
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown_link">link</a>
+                            <a href="#" class="dropdown_link">link</a>
+                            <a href="#" class="dropdown_link">link</a>
+                            <a href="#" class="dropdown_link">link</a>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="navigation_block">
+                <!-- Дропдаун -->
+                <div class="navigation_filter">
+                    <label class="navigation_menu_link_without_dropdown">
+                        <span class="label-text">Наименование клиента</span </label>
+                </div>
+
+                <div class="flex_right_colum">
+                    <p class="right_colum_description">БИН/ИИН</p>
+                </div>
+            </div>
+
+            <div class="navigation_block">
+                <!-- Дропдаун -->
+                <div class="navigation_filter">
+                    <label class="navigation_menu_link_without_dropdown">
+                        <span class="label-text">Все аккаунты</span>
+                    </label>
+                </div>
+
+                <div class="flex_right_colum">
+                    <p class="right_colum_description">БИК</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="title_director_details">Данные директора</p>
+
+        <div class="flex_left_colum">
+            <div class="navigation_block">
+                <div class="navigation_filter">
+                    <label class="navigation_menu_link_without_dropdown">
+                        <span class="label-text">ФИО Директор</span </label>
+                </div>
+                <div class="flex_right_colum">
+                    <p class="right_colum_description">Номер телефона (Логин для входа)</p>
+                </div>
+            </div>
+
+            <div class="navigation_block">
+                <div class="navigation_filter">
+                    <label class="navigation_menu_link_without_dropdown">
+                        <span class="label-text">Электронный адрес</span </label>
+                </div>
+                <div class="flex_right_colum">
+                    <p class="right_colum_description">Пароль для входа</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="title_director_details">Назначить план</p>
+
+        <div class="flex_left_colum">
+            <div class="navigation_block">
+                <div class="navigation_filter dropdown">
+                    <label class="navigation_menu_link">
+                        <span class="label-text">Стандарт</span>
+                        <input class="input_check" type="checkbox" name="dropdown">
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown_link">link</a>
+                            <a href="#" class="dropdown_link">link</a>
+                            <a href="#" class="dropdown_link">link</a>
+                            <a href="#" class="dropdown_link">link</a>
+                        </div>
+                    </label>
+                </div>
+                <div class="navigation_block">
+                    <div class="navigation_filter dropdown">
+                        <label class="navigation_menu_link">
+                            <span class="label-text">Стандарт</span>
+                            <input class="input_check" type="checkbox" name="dropdown">
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown_link">link</a>
+                                <a href="#" class="dropdown_link">link</a>
+                                <a href="#" class="dropdown_link">link</a>
+                                <a href="#" class="dropdown_link">link</a>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="button_red">Добавить клиента</button>
+
+    </div>
+
+
+</body>
+
+</html>
