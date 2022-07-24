@@ -77,6 +77,10 @@
 
 
     /* container */
+    .short_container {
+        max-width: 827px;
+        margin: 0 auto;
+    }
 
     .container {
         max-width: 885px;
@@ -172,6 +176,16 @@
     color: #ffff;
 }
 
+.come_back_button {
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    color: rgba(221, 130, 130, 1);
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -189,3 +203,218 @@
     line-height: 15px;
     letter-spacing: 0.04800000041723251px;
 }
+
+
+/* Блоки чистоклин */
+
+.profile_control_block {
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-bottom: 16px;
+}
+
+.flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_description {
+    display: flex;
+    align-items: center;
+}
+
+.title_company {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.07199999690055847px;
+}
+
+.control_account_item {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    color: rgba(186, 186, 186, 1);
+    display: inline-block;
+    padding: 18px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.control_account_item:hover {
+    background-color: rgba(190, 184, 202, 1);
+    color: #ffff;
+}
+
+.account_status {
+    display: inline-block;
+    padding: 5px;
+    color: rgba(123, 89, 185, 1);
+    border: 2px solid rgba(161, 129, 220, 1);
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.profile_control_text {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0.04399999976158142px;
+    padding: 3px 0;
+}
+
+.flex_colum {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_description_size {
+    min-height: 91px;
+    min-width: 368px;
+}
+
+.profile_control_item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 120px;
+    margin-bottom: 20px;
+}
+
+.profile_control_right {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0.04399999976158142px;
+    padding: 3px 0;
+}
+
+.profile_control_item_right {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    align-items: flex-start;
+    padding: 5px 0 5px 5px;
+    max-width: 150px;
+}
+
+.right_description {
+    background-color: #F2F2F2;
+    padding: 5px 20px 30px 20px;
+    border-radius: 6px;
+}
+
+.phone_img {
+    background-image: url("../images/phone_img.svg");
+    background-repeat: no-repeat;
+    background-position: top 50% right 110%;
+    padding-left: 10px; 
+    display: inline-block;
+    background-size: 15px;
+    max-width: 120px;
+}
+
+.mail_img {
+    background-image: url("../images/mail_img.svg");
+    background-repeat: no-repeat;
+    background-position: top 50% left 0%;
+    padding-left: 10px; 
+    display: inline-block;
+    background-size: 15px;
+    max-width: 120px;
+}
+
+.block_tariff_management {
+    max-width: 300px;
+    margin-bottom: 16px;
+}
+
+.tariff_manegment_link {
+    color: rgba(128, 128, 128, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.tariff_manegment_link:hover {
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.profile_control_text_bold {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.block_tariff_management_buttons_bg {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.block_tariff_management_buttons {
+    max-width: 622px;
+    margin-bottom: 17px;
+}
+
+.block_tariff_management_block_buttons {
+    max-width: 670px;
+}
+
+.block_buttons_tariff_title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.07199999690055847px;
+}
+
+.information_tariff_bottom_left_block {
+    min-width: 403px;
+}
+
+
+/* Текст */
+
+.information_tariff_bottom_text_bold {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.information_tariff_bottom_text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Нижний блок управления */
+.information_tariff_bottom_block {
+    background-color: rgba(113, 104, 129, 1);
+    padding: 12px 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+/* Цвета */
+.grey {
+    background-color: rgba(190, 184, 202, 1);
+}
+
