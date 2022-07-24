@@ -78,11 +78,3 @@ body {
     text-decoration: none;
     padding: 12px 35px;
 }
-/*      DISABLED    */
-
-.disabled {
-    color: #A9A9A9;
-}
-.disabled-btn {
-   background: #D7D7D7;
-}
