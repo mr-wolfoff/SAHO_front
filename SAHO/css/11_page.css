@@ -1,0 +1,26 @@
+.block_documents_item {
+    padding: 22px;
+    background-color: #fff;
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    height: 193px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.documents_link {
+    margin-bottom: 30px;
+}
+
+.documents_description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    text-align: start;
+}
+
+.button_exit {
+    text-align: end;
+}
