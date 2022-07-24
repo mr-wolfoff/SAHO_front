@@ -10,24 +10,232 @@
 
 .navigation_block {
     background-color: #fff;
-    max-width: 209px;
+    min-width: 209px;
     border-radius: 3px;
 }
 
 .navigation_block_container {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 
-.input_customer_search_block { 
+.input_customer_search_block {
     border-radius: 3px;
-    max-width: 296px;
 }
+
 .input_client {
     padding: 10px 0;
     display: inline-block;
+    width: 300px;
+}
+
+.search::placeholder {
     background-image: url("../images/search_logo.svg");
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: top 50% right 5%;
+    padding-left: 10px;
 }
+
+.blocks_charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px ;
+}
+
+
+.block_charts {
+    min-width: 209px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 195px;
+    padding: 0 2%;
+}
+
+.block_charts:hover {
+    background-color: rgba(161, 129, 220, 1);
+}
+
+.block_charts:hover >.charts_circle {
+    border-color: rgba(221, 182, 232, 1);
+}
+
+
+.block_charts:hover >.charts_registration_information {
+    background-color: rgba(140, 105, 204, 1);
+}
+
+.block_charts:hover > .charts_item_discription {
+    color: #fff;
+}
+
+
+
+.charts_item_discription {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    padding: 15px 0;
+    margin-bottom: 1px;
+}
+
+.charts_circle {
+    border: 4px solid #A181DC;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 13px;
+}
+
+
+.charts_item_date {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.1599999964237213px;
+}
+
+
+
+.charts_registration_information {
+    padding:  15px 5px;
+    background-color: #F9F9F9;
+    border: 0;
+    border-radius: 6px;
+
+}
+
+
+.registration_information_date {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.03999999910593033px;
+}
+
+.registration_company_title {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0.03999999910593033px;
+    color: rgba(217, 108, 108, 1);
+}
+
+.title_account_amount {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.03999999910593033px;
+    padding: 17px 0;
+}
+
+.charts_colum_description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(249, 249, 249, 1);
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 6px;
+
+}
+
+.charts_colum_description {
+    margin-bottom: 5px;
+}
+
+
+
+.charts_title_description {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.charts_title_index {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.07999999821186066px;
+    color: rgba(134, 120, 162, 1)
+}
+
+
+.request_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.request_list_item {
+    display: flex;
+    border-radius: 7px;
+    background-color: #ffff;
+    margin-bottom: 7px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.request_text_left {
+    display: flex;
+    justify-content: space-between;
+    min-width: 321px;
+}
+
+
+.request_item_index {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.request_company_item_name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+    color: #DD8282;
+}
+
+
+.request_item_date {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+.request_text_right {
+    display: flex;
+    min-width: 395px;
+    justify-content: space-between;
+}  
+
+
+.request_text_left {
+    min-width: 190px;
+}
+
+.request_text_right {
+    min-width: 450px;
+}
+
+.text_description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.04800000041723251px;
+}
+
+
+.request_list_item:hover {
+    background-color: rgba(113, 104, 129, 1);
+}
+

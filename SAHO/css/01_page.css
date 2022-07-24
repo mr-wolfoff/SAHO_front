@@ -89,10 +89,5 @@
     text-align: left;    
 }
 
-.request_text_right {
-    display: flex;
-    min-width: 347px;
-    justify-content: space-between;
-}
-   
+
 
