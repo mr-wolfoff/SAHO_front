@@ -33,7 +33,7 @@
     .header_container {
         max-width: 98%;
         margin-block: 0;
-        margin-right: 40px;
+        margin-right: 50px;
         margin-left: 10px;
     }
 
@@ -131,10 +131,7 @@
         background-color: #ddd;
         color: black;
     }
-    
-    /* .dropdown:active .dropdown-content {
-    } */
-    
+
     .input_check {
         display: none;
     }

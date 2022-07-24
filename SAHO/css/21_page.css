@@ -1,3 +1,6 @@
+.navigation {
+    width: 10%;
+}
 .navigation_menu_link {
     display: inline-block;
     color: #000;
@@ -166,8 +169,7 @@
     letter-spacing: 0.07999999821186066px;
     color: rgba(134, 120, 162, 1)
 }
-
-        /*REQUEST ITEM LIST*/
+/*REQUEST ITEM LIST*/
 
 .request_list {
     display: flex;
@@ -217,7 +219,7 @@
     display: flex;
     min-width: 395px;
     justify-content: space-between;
-}  
+}
 
 
 .request_text_left {
@@ -239,4 +241,3 @@
 .request_list_item:hover {
     background-color: rgba(113, 104, 129, 1);
 }
-
