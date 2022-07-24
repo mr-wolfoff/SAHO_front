@@ -3,3 +3,10 @@
     color: #fff;
     border: none;
 }
+
+.block_tariff_management_block_buttons {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    justify-content: space-between;
+}

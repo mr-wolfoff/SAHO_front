@@ -89,5 +89,11 @@
     text-align: left;    
 }
 
+.request_text_right {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 

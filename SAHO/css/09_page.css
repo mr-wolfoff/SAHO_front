@@ -1,3 +1,32 @@
+.block_tariff_management_block_buttons {
+    margin-bottom: 28px;
+}
+
+.account_status {
+    background-color:rgba(190, 184, 202, 1);
+    color: #ffff;
+    border: 0;
+}
+
+
+/* Кнопка */
+
+.requst_btn {
+    background-color: rgba(190, 184, 202, 1);
+    min-width: 130px;
+    padding: 9px 0;
+    color: #ffff;
+}
+
+
+/* bottom nav */
+.information_tariff_bottom_block {
+    background-color: rgba(190, 184, 202, 1);
+    padding: 20px 0;
+}
+
+
+/*  */
 .request_list {
     display: flex;
     flex-direction: column;
@@ -10,6 +39,9 @@
     margin-bottom: 7px;
     padding: 10px;
     justify-content: space-between;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 6px;
+    align-items: center;
 }
 
 .request_text_left {
@@ -42,48 +74,29 @@
     letter-spacing: 0.04800000041723251px;
 }
 
-.request_company_tariff_action {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0.04800000041723251px;
-}
+.request_text_right {
+    display: flex;
+    min-width: 395px;
+    justify-content: space-between;
+}  
 
-.request_company_tariff_title {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0.04800000041723251px;
-    text-align: left;
+
+.request_text_left {
+    min-width: 190px;
 }
 
 .request_text_right {
-    display: flex;
-    min-width: 347px;
-    justify-content: space-between;
+    min-width: 450px;
 }
 
-
-/* Блоки */
-.service_action {
-    margin-bottom: 17px;
-}
-
-
-.request_text_right_short {
-    min-width: 252px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.request_item_index_bold {
+.text_description {
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 15px;
     letter-spacing: 0.04800000041723251px;
 }
 
-.requst_btn {
-    padding: 10px;
+
+.request_list_item:hover {
+    background-color: rgba(113, 104, 129, 1);
 }

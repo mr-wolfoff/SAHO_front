@@ -214,17 +214,13 @@
 
 .request_text_right {
     display: flex;
-    min-width: 395px;
+    min-width: 450px;
     justify-content: space-between;
 }  
 
 
 .request_text_left {
     min-width: 190px;
-}
-
-.request_text_right {
-    min-width: 450px;
 }
 
 .text_description {
