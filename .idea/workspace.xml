@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49095402-00aa-4fee-946c-5df7f7ae9bc0" name="Default Changelist" comment="Finish index22.html &amp; 22_page.css" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2COZV3jrAmaOUSLQP2imavw6kkf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49095402-00aa-4fee-946c-5df7f7ae9bc0" name="Default Changelist" comment="" />
+      <created>1658675613831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658675613831</updated>
+      <workItem from="1658675616337" duration="9327000" />
+      <workItem from="1658693475713" duration="110000" />
+      <workItem from="1658693597973" duration="19000" />
+      <workItem from="1658734639452" duration="60000" />
+      <workItem from="1658734713986" duration="19000" />
+      <workItem from="1658734794358" duration="29000" />
+      <workItem from="1658734840826" duration="17000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finish index21.html &amp; 20_page.css">
+      <created>1658678385243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658678385243</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finish index20.html &amp; 20_page.css">
+      <created>1658684720839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658684720839</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finish index22.html &amp; 22_page.css">
+      <created>1658686426314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658686426314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish index21.html &amp; 20_page.css" />
+    <MESSAGE value="Finish index20.html &amp; 20_page.css" />
+    <MESSAGE value="Finish index22.html &amp; 22_page.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish index22.html &amp; 22_page.css" />
+  </component>
+</project>

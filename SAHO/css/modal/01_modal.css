@@ -1,6 +1,11 @@
 body {
     background: gray;
 }
+.modal_absolute {
+    position: absolute;
+    top: 100px;
+    left: 25vw;
+}
 .modal_block {
     width: 725px;
     height: 400px;
