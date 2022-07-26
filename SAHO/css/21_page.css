@@ -1,3 +1,6 @@
+.header_link:nth-last-child(1)::after {
+    left: 75px;
+}
 .navigation {
     width: 10%;
 }
