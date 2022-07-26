@@ -8,27 +8,33 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/06_page.css">
+    <link rel="stylesheet" href="css/10_page.css">
+    <link rel="stylesheet" href="css/11_page.css">
+    <!-- MOADLS -->
+    <link rel="stylesheet" href="css/modal/01_modal.css">
+    <link rel="stylesheet" href="css/modal/02_modal.css">
+    <link rel="stylesheet" href="css/modal/03_modal.css">
     <title>Document</title>
 </head>
 
 <body>
+    <!-- HEADER -->
     <header class="header">
         <div class="header_container">
             <div class="nav-container">
                 <div class="logo_wrap">
-                    <a><img src="images/SAHO.svg" alt="saho" class="logo_saho"></a>
+                    <a href="index.html"><img src="images/SAHO.svg" alt="saho" class="logo_saho"></a>
                     <h5 class="role">Суперадмин</h5>
                 </div>
                 <nav class="navigation">
-                    <a class="header_link">Запросы от клиентов</a>
-                    <a class="header_link">Добавить пароль</a>
-                    <a class="header_link">Сбросить пароль</a>
-                    <a class="header_link">Выйти из системы</a>
+                    <a href="index4.html" class="header_link">Запросы от клиентов</a>
+                    <a href="index2.html" class="header_link">Добавить регион</a>
+                    <a href="index3.html" class="header_link">Сбросить пароль</a>
+                    <a href="index20.html" class="header_link">Выйти из системы</a>
                 </nav>
             </div>
         </div>
     </header>
-
 
     <div class="container ">
         <a class="come_back_button" href="#">Вернуться назад</a>
@@ -85,15 +91,17 @@
                 </div>
             </div>
         </div>
-
-        <div class="short_container">
-            <div class="block_tariff_management flex_row">
-                <a href="#" class="tariff_manegment_link">Тарифный план</a>
-                <a href="#" class="tariff_manegment_link">Активности</a>
-                <a href="#" class="tariff_manegment_link">Добкументы</a>
-            </div>
+    </div>
+    
+    <div class="short_container">
+        <div class="block_tariff_management flex_row">
+            <a href="#tab1" class="tariff_manegment_link triggers_item">Тарифный план</a>
+            <a href="#tab2" class="tariff_manegment_link triggers_item">Активности</a>
+            <a href="#tab3" class="tariff_manegment_link triggers_item">Добкументы</a>
         </div>
+    </div>
 
+    <div id="tab1" class="content_item container">
         <div class="block_tariff_management_buttons_bg">
             <div class="short_container">
                 <div class="flex_row block_tariff_management_buttons">
@@ -105,15 +113,231 @@
                 </div>
                 <div class="block_tariff_management_block_buttons flex_row">
                     <p class="block_buttons_tariff_title">Стандарт</p>
-                    <button class="button_red">Изменить план</button>
-                    <button class="button_red">Добавить объект</button>
-                    <button class="button_red">Изменить период</button>
+                    <button class="button_red form_open1">Изменить план</button>
+                    <button class="button_red form_open3">Добавить объект</button>
+                    <button class="button_red form_open2">Изменить период</button>
                     <button class="button_red grey">Остановить</button>
                 </div>
             </div>
         </div>
     </div>
 
-</body>
+    <div id="tab2" class="content_item container">
+        <div class="request_list_item">
+            <div class="flex_row short_container">
+                <div class="request_text_left">
+                    <p class="request_description">24.09.22</p>
+                    <p class="request_description">Тарифный план:</p>
+                    <p class="request_description">Стандарт</p>
+                </div>
+                <div class="request_text_right">
+                    <p class="request_description">Изменение периода</p>
+                    <p class="request_description">24 сентября 2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="request_list_item">
+            <div class="flex_row short_container">
+                <div class="request_text_left">
+                    <p class="request_description">24.09.22</p>
+                    <p class="request_description">Тарифный план:</p>
+                    <p class="request_description">Стандарт</p>
+                </div>
+                <div class="request_text_right">
+                    <p class="request_description">Изменение тарифа</p>
+                    <p class="request_description">Big Business</p>
+                </div>
+            </div>
+        </div>
+        <div class="request_list_item">
+            <div class="flex_row short_container">
+                <div class="request_text_left">
+                    <p class="request_description">24.09.22</p>
+                    <p class="request_description">Тарифный план:</p>
+                    <p class="request_description">Стандарт</p>
+                </div>
+                <div class="request_text_right">
+                    <p class="request_description">Оастановка аккаунта</p>
+                    <p class="request_description">24 сентября 2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="request_list_item">
+            <div class="flex_row short_container">
+                <div class="request_text_left">
+                    <p class="request_description">24.09.22</p>
+                    <p class="request_description">Тарифный план:</p>
+                    <p class="request_description">Стандарт</p>
+                </div>
+                <div class="request_text_right">
+                    <p class="request_description">Добавление объекта</p>
+                    <p class="request_description">1</p>
+                </div>
+            </div>
+        </div>
+        <div class="request_list_item">
+            <div class="flex_row short_container">
+                <div class="request_text_left">
+                    <p class="request_description">24.09.22</p>
+                    <p class="request_description">Тарифный план:</p>
+                    <p class="request_description">Стандарт</p>
+                </div>
+                <div class="request_text_right">
+                    <p class="request_description">Удаление объекта</p>
+                    <p class="request_description">Big Business</p>
+                </div>
+            </div>
+        </div>
+        <div class="request_list_item">
+            <div class="flex_row short_container">
+                <div class="request_text_left">
+                    <p class="request_description">24.09.22</p>
+                    <p class="request_description">Тарифный план:</p>
+                    <p class="request_description">Стандарт</p>
+                </div>
+                <div class="request_text_right">
+                    <p class="request_description">Активирован аккаунт</p>
+                    <p class="request_description">24 сентября 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="tab3" class="content_item container">
+        <div class="block_documents flex_row">
+            <div class="block_documents_item">
+                <a class="button_exit" href="#"><img src="images/button_esc.svg" alt="button_exit"></a>
+                <a class="documents_link" href="#"><img src="images/contract_offer.svg" alt="contract_offer"></a>
+                <p class="documents_description">Договор аферты</p>
+            </div>
+            <div class="block_documents_item">
+                <a class="button_exit" href="#"><img src="images/button_esc.svg" alt="button_exit"></a>
+                <a class="documents_link" href="#"><img src="images/additional_agreements.svg"
+                        alt="additional_agreements"></a>
+                <p class="documents_description">Доп. соглашения</p>
+            </div>
+            <div class="block_documents_item">
+                <a class="button_exit" href="#"><img src="images/button_esc.svg" alt="button_exit"></a>
+                <a class="documents_link" href="#"><img src="images/registration_company.svg"
+                        alt="additional_agreements"></a>
+                <p class="documents_description">Свидетельство постановки НДС компании</p>
+            </div>
+            <div class="block_documents_item">
+                <a class="button_exit" href="#"><img src="images/button_esc.svg" alt="button_exit"></a>
+                <a class="documents_link" href="#"><img src="images/contract_offer.svg" alt="contract_offer2"></a>
+                <p class="documents_description">Договор аферты</p </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--                    BREADCRUBS                          -->
+
+    <script src='js/jquery-3.6.0.min.js'></script>
+    <script src="js/modalForm.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.triggers_item').click(function (e) {
+                e.preventDefault();
+                $('.triggers_item').removeClass('triggers_item_active');
+                $('.content_item').removeClass('content_item_active');
+                $(this).addClass('triggers_item_active');
+                $($(this).attr('href')).addClass('content_item_active');
+            })
+        })
+    </script>
+
+
+
+
+    <!--             MODAL                  -->
+
+
+    <!--             Modal#1              -->
+
+
+    <div class="modal_absolute m-1">
+        <div class="modal_block">
+            <div class="modal_title_block">
+                <h1 class="model_title">Изменить тарифный план</h1>
+                <p class="modal_subtitle">Для изменения тарифного плана отправтье заявку н изменения достаточно
+                    вырать интересный вам план после чего с вами свяжется наш менеджер  для деталей</p>
+            </div>
+            <a href="#" class="close_button"><img src="images/modal_X_icon.svg" alt="X"></a>
+            <div class="modal_items_block">
+                <div class="modal_item disabled">
+                    <h3 class="modal_item_title">Start</h3>
+                    <p class="modal_item_subtitle">Тарифный план</p>
+                    <a href="#" class="modal_button disabled-btn"  >Выбрать план</a>
+                </div>
+                <div class="modal_item">
+                    <h3 class="modal_item_title">Standard</h3>
+                    <p class="modal_item_subtitle">Тарифный план</p>
+                    <a href="#" class="modal_button">Выбрать план</a>
+                </div>
+                <div class="modal_item">
+                    <h3 class="modal_item_title">Big business</h3>
+                    <p class="modal_item_subtitle">Тарифный план</p>
+                    <a href="#" class="modal_button">Выбрать план</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--            Modal#2                  -->
+
+    <div class="modal_absolute m-2">
+        <div class="modal_block">
+          <div class="modal_title_block">
+            <img class="modal_icon_tower" src="images/modal_tower_icon.svg" alt="tower">
+            <h1 class="model_title">Изменить период действия</h1>
+            <p class="modal_subtitle">Для изменения тарифного плана отправтье заявку н изменения достаточно вырать
+              интересный вам план после чего с вами свяжется наш менеджер  для деталей</p>
+          </div>
+          <a href="#" class="close_button"><img src="images/modal_X_icon.svg" alt="X"></a>
+          <div class="modal_item_block">
+            <p class="item_preposition">До</p>
+            <!-- Дропдаун -->
+            <div class="navigation_filter dropdown">
+              <label class="navigation_menu_link">
+                <span class="label-text">20 сентября 2022</span>
+                <input class="input_check" type="checkbox" name="dropdown">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown_link">link</a>
+                  <a href="#" class="dropdown_link">link</a>
+                  <a href="#" class="dropdown_link">link</a>
+                  <a href="#" class="dropdown_link">link</a>
+                </div>
+              </label>
+            </div>
+            <a href="#" class="modal_button">Выбрать план</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!--              Modad#3              -->
+
+      <div class="modal_absolute m-3">
+        <div class="modal_block">
+          <div class="modal_title_block">
+            <img class="modal_icon_tower" src="images/modal_tower_icon.svg" alt="tower">
+            <h1 class="model_title">Изменить период действия</h1>
+            <p class="modal_subtitle">Для изменения тарифного плана отправтье заявку н изменения достаточно вырать
+              интересный вам план после чего с вами свяжется наш менеджер  для деталей</p>
+          </div>
+          <a href="#" class="close_button"><img src="images/modal_X_icon.svg" alt="X"></a>
+          <div class="modal_item_block">
+            <div class="modal_item_circle decrement">-</div>
+            <p class="modal_item_counter">1</p>
+            <div class="modal_item_circle increment">+</div>
+            <a href="#" class="modal_button">Добавить</a>
+          </div>
+        </div>
+      </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/modalForm.js"></script>
+
+</body>
 </html>

@@ -33,11 +33,14 @@
     width: 300px;
 }
 
-.center {
-   
-}
-
-
 .logout_button_purple {
-    
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #A181DC; 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.07999999821186066px;
+    padding: 5px 12px;
+    margin-block: 20px;
 }
