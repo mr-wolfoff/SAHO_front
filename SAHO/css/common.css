@@ -415,3 +415,12 @@
     background-color: rgba(190, 184, 202, 1);
 }
 
+.mail_phone_block {
+    text-align: left;
+    min-width: 130px;
+}
+
+.profile_control_item_right {
+    align-items: center;
+    display: flex;
+}
